@@ -1,0 +1,24 @@
+.cs142-p5-mytoolbar {
+	list-style-type: none;
+	color: black;
+	padding: 10px;
+	margin-right: 20px;
+	margin: 0;
+}
+
+.cs142-p5-myelement {
+	padding: 20px;
+	display: inline;
+	background-color: gray;
+	text-align: center;
+}
+
+.cs142-p5-mylink {
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+}
+
+.cs142-p5-myelement .cs142-p5-mylink:hover {
+    background-color: black;
+}

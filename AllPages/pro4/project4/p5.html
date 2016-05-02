@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="cs142App" ng-controller="MainController">
+  <head>
+    <title>{{main.title || "CS142 Class Project"}}</title>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="mainController.js"></script>
+    <script src="modelData/states.js"></script>
+    <!-- For States -->
+    <script src="components/states/statesController.js"></script>
+    <link rel="stylesheet" type="text/css" href="components/states/states.css" />
+    <!-- This is for the overall header -->
+    <script src="components/header/headerController.js"></script>
+    <link rel="stylesheet" type="text/css" href="components/header/header.css" />
+    <!--This is for the example component.-->
+    <script src="components/example/exampleController.js"></script>
+    <link rel="stylesheet" type="text/css" href="components/example/example.css" />
+    <script src="modelData/example.js"></script>
+    <!-- for problem5 -->
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="p5.css" />
+  </head>
+  <body>
+        <!-- This is for the overall header -->
+        <div ng-include="'components/header/headerTemplate.html'" ng-controller="HeaderController"></div>
+        <ul class="cs142-p5-mytoolbar">
+            <li class="cs142-p5-myelement"><a class="cs142-p5-mylink" href="#example">Example</a></li>
+            <li class="cs142-p5-myelement"><a class="cs142-p5-mylink" href="#states">States</a></li>
+        </ul>
+        <p/>
+        <div ng-view></div>
+  </body>
+</html>

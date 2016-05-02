@@ -1,0 +1,16 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+
+.cs142-states-eachState {
+	font-size: 25px;
+	background-color: black;
+	color: #66ffff;
+	margin: 10px;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+}

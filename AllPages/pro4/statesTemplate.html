@@ -1,0 +1,10 @@
+<label> Substring: </label>
+<input type="text" ng-model="main.searchText" placeholder="enter substring here!">
+<p/>
+<div> The substring you are currently using to filter is: {{main.searchText}}</div>
+<ul>
+  <li class="cs142-states-eachState" ng-repeat="state in certainStates = (allStates | filter:main.searchText)">
+    <span> {{state}} </span>
+  </li>
+</ul>  
+<p ng-if="certainStates.length === 0">There are no states that contain this substring! Sorry!</p>
