@@ -17,6 +17,7 @@
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   padding: 5px;
+  margin-left: 5px;
   float: right;
   font-size: 20px;
 }
