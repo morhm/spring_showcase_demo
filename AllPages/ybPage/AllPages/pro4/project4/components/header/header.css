@@ -1,0 +1,17 @@
+.cs142-header-headerCreation {
+	font-size:50px;
+	font-family: Impact, Charcoal, sans-serif;
+	background: linear-gradient(white, gray, #66ffff);
+	text-align: center;
+	animation-name: animateTwo;
+	animation-delay: 2s;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animateTwo {
+	0% {color: #000099;}
+	25% {background-color: #0000cc;}
+	50% {background-color: #0000ff;}
+	100% {background-color: #3333ff;}
+}

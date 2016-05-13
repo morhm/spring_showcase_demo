@@ -1,0 +1,23 @@
+.navbar-header.page-scroll {
+	width: 80em;
+
+}
+
+#sign-in-button {
+    background-color: #fed136;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+  float: right;
+  font-size: 20px;
+}
+
+#make-video-button {
+    background-color: #fed136;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 5px;
+  margin-left: 5px;
+  float: right;
+  font-size: 20px;
+}
