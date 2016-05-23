@@ -1,0 +1,151 @@
+/*#box, #box2 {
+	display: flex;
+  	justify-content: center;
+}
+*/
+
+#carousel_bg {
+	background-color: #337ab7;
+	height: 509px;
+	width: 1085px;
+	z-index: 100;
+	margin-bottom: -510px;
+	opacity: 0.8;
+}
+
+img {
+	margin: 10px;
+	height: 50;
+}
+
+h1 {
+	color: #337ab7;
+	padding-top: 26px;
+	text-align: center;
+	
+}
+
+#h1box {
+	height: 100px;
+	background-color:rgba(254, 209, 54,0.5);
+}
+
+#box {
+
+}
+
+body {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-image:url(overfelt.jpg);
+}
+
+.container {
+	width:80%;
+}
+
+.video {
+	display:flex;
+	flex-direction: row;
+	margin: 15px;
+}
+
+.flexboxbox {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 1000px;
+	height: 480px;
+	padding-left: 200px;
+}
+
+.flexthing {
+	margin-left: 0px;
+}
+
+.nextthing {
+	height: 150px;
+	margin-top: 150px;
+}
+
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		width: 300px;
+		height: 70px;
+		padding: 0px;
+		position: center;
+		margin-right: 35px;
+		margin-top: 10px;
+		display: inline-block;
+		color: #337ab7;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    	text-transform: uppercase;
+		text-decoration: none;
+		font-weight:700;
+		border-radius: 3px;
+    	font-size: 18px;
+    	padding: 30px 40px;
+		text-align: center;
+		padding: 0.5em .5em 0.5em .5em;
+		background-color: #fed136;
+		cursor: pointer;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		-moz-transition: background-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out;
+	}
+	
+	button,
+	.buttonTwo {
+		width: 300px;
+		height: 70px;
+		position: center;
+		margin-right: 35px;
+		margin-top: 10px;
+		display: inline-block;
+		color: #337ab7;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    	text-transform: uppercase;
+		text-decoration: none;
+		font-weight:700;
+		border-radius: 3px;
+    	font-size: 18px;
+		text-align: center;
+		padding: 1em 1em 1em 1em;
+		background-color: #fed136;
+		cursor: pointer;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		-moz-transition: background-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #fed136;
+			color: white;
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #7eaeac;
+		}
